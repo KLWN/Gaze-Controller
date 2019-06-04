@@ -32,10 +32,6 @@ public class GazeController : MonoBehaviour
     private int waitAfterTriggerStarted;
     public static bool triggerAborted;
 
-    public bool isLoaded;
-    public float timerDeselect = 0f;
-    public float fadeTimeDeselect = 3f;
-
 
     private void Start()
     {
@@ -45,7 +41,6 @@ public class GazeController : MonoBehaviour
 
     private void Update()
     {
-        isLoaded = LoadingBarAnimated.isLoaded;
 
         if (waitBeforeSelected <= TimeBeforeSelected && firstBlood)
         {
@@ -158,7 +153,7 @@ public class GazeController : MonoBehaviour
     private void OnDeselect(Transform selection)
     {
         var outline = selection.GetComponent<Outline>();
-        outline.OutlineWidth = (timerDeselect * -1);
+        outline.OutlineWidth = 0;
         
     }
     
