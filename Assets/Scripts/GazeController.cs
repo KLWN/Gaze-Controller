@@ -28,12 +28,16 @@ public class GazeController : MonoBehaviour
     private int waitBeforeTriggerStarts;
     public static bool triggerStarted;
     [Space(10)]
-    public int TimeAfterTriggerStarted = 120;
+    public int TimeAfterTriggerStarted = 270;
     private int waitAfterTriggerStarted;
     public static bool triggerAborted;
 
+    public bool isLoaded;
+    public float timerDeselect = 0f;
+    public float fadeTimeDeselect = 3f;
 
-    private void Awake()
+
+    private void Start()
     {
         _camera = Camera.main;
     }
@@ -41,6 +45,7 @@ public class GazeController : MonoBehaviour
 
     private void Update()
     {
+        isLoaded = LoadingBarAnimated.isLoaded;
 
         if (waitBeforeSelected <= TimeBeforeSelected && firstBlood)
         {
@@ -77,8 +82,8 @@ public class GazeController : MonoBehaviour
                 deselect = true;
             }
         }
-        
-        
+
+
         if (waitBeforeTriggerStarts <= TimeBeforeTriggerStarts && selected)
         {
             waitBeforeTriggerStarts++;
@@ -109,6 +114,11 @@ public class GazeController : MonoBehaviour
             }
         }
 
+        if (LoadingBarAnimated.isLoaded)
+        {
+            OnDeselect(mySelection);
+        }
+
 
         // Creating a RayCast and check if we hit something
         var ray = _camera.ScreenPointToRay(Input.mousePosition);
@@ -137,17 +147,19 @@ public class GazeController : MonoBehaviour
     }
 
 
-    private static void OnSelect(Transform selection)
+    //Überarbeiten, Fade-In/Out der Highlightfarbe besser mit eine Coroutine!!
+    private void OnSelect(Transform selection)
     {
         var outline = selection.GetComponent<Outline>();
         outline.OutlineWidth = 10;
     }
 
 
-    private static void OnDeselect(Transform selection)
+    private void OnDeselect(Transform selection)
     {
         var outline = selection.GetComponent<Outline>();
-        outline.OutlineWidth = 0;
+        outline.OutlineWidth = (timerDeselect * -1);
+        
     }
     
     
