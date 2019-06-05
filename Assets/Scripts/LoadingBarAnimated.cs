@@ -51,5 +51,6 @@ public class LoadingBarAnimated : MonoBehaviour
     private void DoWhenLoadingDone()
     {
         Debug.Log("DoWhenDone Loaded");
+        
     }
 }

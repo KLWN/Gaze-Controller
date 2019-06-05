@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2168ea95-4820-4dd9-800b-330f1df15d41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Editor/HierarchyHighlight.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Editor/HierarchyHighlight.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationEventListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/_Utility.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/_Utility/HierarchyHighlighter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/_Utility/HierarchyHighlighter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Backups/LoadingBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingBar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Backups/LoadingBar.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaitFor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Backups/WaitFor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaitFor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Backups/WaitFor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_backup.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Backups.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_backup/LoadingBarAnimated.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_backup/LoadingBarAnimated.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Circle_Selected.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Circle_Selected.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,37 +19,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GazeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="149" column="78" selection-start-line="149" selection-start-column="78" selection-end-line="149" selection-end-column="78" />
+            <state relative-caret-position="590">
+              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
               <folding>
-                <marker date="1559671176000" expanded="true" signature="6:92" ph="..." />
-                <marker date="1559671176000" expanded="true" signature="163:4454" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1081:1124" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1152:3848" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1275:1329" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1383:1671" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1443:1657" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1761:1817" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1875:2183" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1912:2173" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2261:2320" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2396:2552" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2439:2542" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2652:2711" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2815:3022" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="2858:3012" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3064:3121" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3296:3842" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3402:3667" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3578:3653" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3684:3832" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="3976:4080" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="4131:4262" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="4315:4352" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="4405:4442" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="6:92" ph="..." />
+                <marker date="1559734824000" expanded="true" signature="163:4614" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1014:1057" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1085:4018" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1160:1214" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1268:1556" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1328:1542" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1646:1702" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1760:2068" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="1797:2058" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2146:2205" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2281:2437" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2324:2427" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2537:2596" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2700:2907" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2743:2897" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="2958:3291" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="3109:3268" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="3466:4012" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="3572:3837" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="3748:3823" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="3854:4002" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="4146:4259" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="4310:4422" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="4475:4512" ph="{...}" />
+                <marker date="1559734824000" expanded="true" signature="4565:4602" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1533574965000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+                <marker date="1533574965000" expanded="true" signature="138:7594" ph="{...}" />
+                <marker date="1533574965000" expanded="true" signature="153:1987" ph="{...}" />
+                <marker date="1533574965000" expanded="true" signature="2001:7535" ph="{...}" />
+                <marker date="1533574965000" expanded="true" signature="2117:7527" ph="{...}" />
+                <marker date="1533574965000" expanded="true" signature="7595:23846" ph="/* ASEBEGIN ... */" />
               </folding>
             </state>
           </provider>
@@ -72,16 +75,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
-                <marker date="1559671176000" expanded="true" signature="6:87" ph="..." />
-                <marker date="1559671176000" expanded="true" signature="162:1346" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="591:733" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="761:1254" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1090:1163" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1186:1239" ph="{...}" />
-                <marker date="1559671176000" expanded="true" signature="1292:1344" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="6:87" ph="..." />
+                <marker date="1559731345000" expanded="true" signature="162:1355" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="591:733" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="761:1254" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="1090:1163" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="1186:1239" ph="{...}" />
+                <marker date="1559731345000" expanded="true" signature="1292:1353" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,16 +115,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GazeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_Stones.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-beffio-Medieval_Kingdom-Stones.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationEventListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/MobileShader/beffio_Water_Mobile.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/MobileShader/beffio_Mobile.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Instant Screenshot/ScreenshotTaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GazeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-beffio-Medieval_Kingdom-Stones.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Instant Screenshot/ScreenshotTaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_Stones.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationEventListener.cs" />
       </list>
     </option>
   </component>
@@ -188,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559461952752</updated>
       <workItem from="1559461960944" duration="299000" />
-      <workItem from="1559661953735" duration="7368000" />
+      <workItem from="1559661953735" duration="11662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7667000" />
+    <option name="totallyTimeSpent" value="11961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,18 +280,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
           <folding>
-            <marker date="1559671176000" expanded="true" signature="6:87" ph="..." />
-            <marker date="1559671176000" expanded="true" signature="162:1346" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="591:733" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="761:1254" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1090:1163" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1186:1239" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1292:1344" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="6:114" ph="..." />
+            <marker date="1559677357000" expanded="true" signature="152:1089" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="247:1087" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="350:1081" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="501:679" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="755:936" ph="{...}" />
+            <marker date="1559677357000" expanded="true" signature="953:1071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Instant Screenshot/ScreenshotTaker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <marker date="1559678345000" expanded="false" signature="19:50" ph="..." />
+            <marker date="1559678345000" expanded="true" signature="111:5493" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="480:791" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="825:4971" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="2102:2137" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="2575:2691" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="2732:2795" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3064:3278" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3086:3235" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3243:3274" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3439:3587" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3471:3583" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3674:3725" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3812:3903" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="3963:4825" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="5107:5395" ph="{...}" />
+            <marker date="1559678345000" expanded="true" signature="5428:5490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/MobileShader/beffio_Mobile.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533573945000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1533573945000" expanded="true" signature="134:3673" ph="{...}" />
+            <marker date="1533573945000" expanded="true" signature="149:1203" ph="{...}" />
+            <marker date="1533573945000" expanded="true" signature="1217:3614" ph="{...}" />
+            <marker date="1533573945000" expanded="true" signature="1334:3606" ph="{...}" />
+            <marker date="1533573945000" expanded="true" signature="3674:15251" ph="/* ASEBEGIN ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/MobileShader/beffio_Water_Mobile.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533573420000" expanded="true" signature="46:9957" ph="{...}" />
+            <marker date="1533573420000" expanded="true" signature="61:1505" ph="{...}" />
+            <marker date="1533573420000" expanded="true" signature="1519:9955" ph="{...}" />
+            <marker date="1533573420000" expanded="true" signature="1650:9947" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/GeneratedFromSurface-beffio-Medieval_Kingdom-Stones.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1559721426000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1559721426000" expanded="true" signature="134:105087" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="149:1513" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="1527:105028" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="1616:1739" ph="/* ------------------------------------------------------------ ... */" />
+            <marker date="1559721426000" expanded="true" signature="1787:32709" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="1855:32701" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="32766:44491" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="32860:44483" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="44531:72766" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="44597:72758" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="72817:95779" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="72886:95771" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="95848:105025" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="95938:105004" ph="{...}" />
+            <marker date="1559721426000" expanded="true" signature="105088:122953" ph="/* ASEBEGIN ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_Stones.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1559723535000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1559723535000" expanded="true" signature="135:10599" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="150:1514" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="1528:10540" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="1611:7850" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="7867:7933" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="7948:10537" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="8038:10528" ph="{...}" />
+            <marker date="1559723535000" expanded="true" signature="10600:28465" ph="/* ASEBEGIN ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-beffio-Medieval_Kingdom-Stones.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="28" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+          <folding>
+            <marker date="1559723581000" expanded="true" signature="0:416" ph="/* Compiled shader for Current graphics device ... */" />
+            <marker date="1559723581000" expanded="true" signature="471:2061" ph="{...}" />
+            <marker date="1559723581000" expanded="true" signature="2258:2495" ph="/* Compiled programs ... */" />
+            <marker date="1559723581000" expanded="true" signature="23997:24110" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="48357:48470" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="72925:73038" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="93922:94035" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="117847:117960" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="136665:136778" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="158411:158524" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="179858:179971" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="204245:204358" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="225715:225828" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="250125:250238" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="273014:273127" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="298636:298749" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="324309:324422" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="350229:350342" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="376200:376313" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="398524:398637" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="423811:423924" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="444475:444588" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="468083:468196" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="490739:490852" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="516369:516482" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="539076:539189" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="564761:564874" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="586338:586476" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="612227:612365" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="635103:635241" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="662254:662392" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="685181:685319" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="712383:712521" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="735536:735674" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="762985:763123" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="786189:786327" ph="/* No shader variant for this keyword set. The closest match will be used instead. ... */" />
+            <marker date="1559723581000" expanded="true" signature="813934:814171" ph="/* Compiled programs ... */" />
+            <marker date="1559723581000" expanded="true" signature="832298:832411" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="849232:849345" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="867814:867927" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="886283:886396" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="904254:904367" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="922700:922813" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="939840:939953" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="958630:958743" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="977307:977420" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="995484:995597" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1013953:1014066" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1031116:1031229" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1049929:1050042" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1068629:1068742" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1086829:1086942" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1107096:1107209" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1129972:1130085" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1150292:1150405" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1172903:1173016" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1193378:1193491" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1216462:1216575" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1236990:1237103" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1259809:1259922" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1278009:1278122" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1297289:1297402" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1315540:1315653" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1334871:1334984" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1353385:1353498" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1372949:1373062" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1391514:1391627" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1411129:1411242" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1431161:1431274" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1452066:1452179" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1472153:1472266" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1492905:1493018" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1513145:1513258" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1534258:1534371" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1554553:1554666" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1575513:1575626" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1595776:1595889" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1616912:1617025" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1637230:1637343" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1658213:1658326" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1678684:1678797" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1700028:1700141" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1720554:1720667" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1741912:1742149" ph="/* Compiled programs ... */" />
+            <marker date="1559723581000" expanded="true" signature="1754999:1755112" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1771162:1771275" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1788508:1788621" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1802819:1802932" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1820128:1820241" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1834660:1834773" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1852192:1852305" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1865162:1865275" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1881298:1881411" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1895791:1895904" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1913106:1913219" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1927390:1927503" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1944672:1944785" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1959177:1959290" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1559723581000" expanded="true" signature="1976880:1977117" ph="/* Compiled programs ... */" />
+            <marker date="1559723581000" expanded="true" signature="1982057:1982170" ph="/* All GLSL source is contained within the vertex program ... */" />
           </folding>
         </state>
       </provider>
@@ -294,36 +511,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <marker date="1559731345000" expanded="true" signature="6:87" ph="..." />
+            <marker date="1559731345000" expanded="true" signature="162:1355" ph="{...}" />
+            <marker date="1559731345000" expanded="true" signature="591:733" ph="{...}" />
+            <marker date="1559731345000" expanded="true" signature="761:1254" ph="{...}" />
+            <marker date="1559731345000" expanded="true" signature="1090:1163" ph="{...}" />
+            <marker date="1559731345000" expanded="true" signature="1186:1239" ph="{...}" />
+            <marker date="1559731345000" expanded="true" signature="1292:1353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GazeController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="78" selection-start-line="149" selection-start-column="78" selection-end-line="149" selection-end-column="78" />
+        <state relative-caret-position="590">
+          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
           <folding>
-            <marker date="1559671176000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1559671176000" expanded="true" signature="163:4454" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1081:1124" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1152:3848" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1275:1329" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1383:1671" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1443:1657" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1761:1817" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1875:2183" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="1912:2173" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2261:2320" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2396:2552" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2439:2542" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2652:2711" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2815:3022" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="2858:3012" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3064:3121" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3296:3842" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3402:3667" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3578:3653" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3684:3832" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="3976:4080" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="4131:4262" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="4315:4352" ph="{...}" />
-            <marker date="1559671176000" expanded="true" signature="4405:4442" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="6:92" ph="..." />
+            <marker date="1559734824000" expanded="true" signature="163:4614" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1014:1057" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1085:4018" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1160:1214" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1268:1556" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1328:1542" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1646:1702" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1760:2068" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="1797:2058" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2146:2205" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2281:2437" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2324:2427" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2537:2596" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2700:2907" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2743:2897" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="2958:3291" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="3109:3268" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="3466:4012" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="3572:3837" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="3748:3823" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="3854:4002" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="4146:4259" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="4310:4422" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="4475:4512" ph="{...}" />
+            <marker date="1559734824000" expanded="true" signature="4565:4602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1533574965000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1533574965000" expanded="true" signature="138:7594" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="153:1987" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="2001:7535" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="2117:7527" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="7595:23846" ph="/* ASEBEGIN ... */" />
           </folding>
         </state>
       </provider>

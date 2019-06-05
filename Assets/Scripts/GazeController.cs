@@ -15,6 +15,7 @@ public class GazeController : MonoBehaviour
     private bool firstBlood;
     public Transform mySelection;
     public string whatWasHit;
+    public int OutlineSize = 5;
     [Space(10)] 
     public int TimeBeforeSelected = 10;
     private int waitBeforeSelected;
@@ -31,6 +32,7 @@ public class GazeController : MonoBehaviour
     public int TimeAfterTriggerStarted = 270;
     private int waitAfterTriggerStarted;
     public static bool triggerAborted;
+    
 
 
     private void Start()
@@ -109,9 +111,19 @@ public class GazeController : MonoBehaviour
             }
         }
 
+        
         if (LoadingBarAnimated.isLoaded)
         {
             OnDeselect(mySelection);
+
+            Animator selectionAnim;
+            
+            if (mySelection.GetComponent<Animator>())
+            {
+                selectionAnim = mySelection.GetComponent<Animator>();
+                selectionAnim.SetBool("ActivateBool", true);
+            }
+            
         }
 
 
@@ -146,7 +158,7 @@ public class GazeController : MonoBehaviour
     private void OnSelect(Transform selection)
     {
         var outline = selection.GetComponent<Outline>();
-        outline.OutlineWidth = 10;
+        outline.OutlineWidth = OutlineSize;
     }
 
 
