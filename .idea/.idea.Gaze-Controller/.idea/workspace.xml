@@ -4,11 +4,50 @@
     <list default="true" id="2168ea95-4820-4dd9-800b-330f1df15d41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gaze-Controller/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cube_Highlight.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Cube_Highlight.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cubes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Cubes.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chest.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chest.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/Lightmap-0_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Wood.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Wood.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/NavyGrid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +58,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GazeController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="590">
@@ -56,27 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1533574965000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
-                <marker date="1533574965000" expanded="true" signature="138:7594" ph="{...}" />
-                <marker date="1533574965000" expanded="true" signature="153:1987" ph="{...}" />
-                <marker date="1533574965000" expanded="true" signature="2001:7535" ph="{...}" />
-                <marker date="1533574965000" expanded="true" signature="2117:7527" ph="{...}" />
-                <marker date="1533574965000" expanded="true" signature="7595:23846" ph="/* ASEBEGIN ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
                 <marker date="1559731345000" expanded="true" signature="6:87" ph="..." />
                 <marker date="1559731345000" expanded="true" signature="162:1355" ph="{...}" />
@@ -109,6 +132,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>waitfor</find>
+      <find>Detail_mask_1_map_input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,6 +160,7 @@
         <option value="$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_Stones.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GazeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader" />
       </list>
     </option>
   </component>
@@ -202,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559461952752</updated>
       <workItem from="1559461960944" duration="299000" />
-      <workItem from="1559661953735" duration="11662000" />
+      <workItem from="1559661953735" duration="12887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11961000" />
+    <option name="totallyTimeSpent" value="13186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadingBarAnimated.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
           <folding>
             <marker date="1559731345000" expanded="true" signature="6:87" ph="..." />
             <marker date="1559731345000" expanded="true" signature="162:1355" ph="{...}" />
@@ -523,6 +548,21 @@
             <marker date="1559731345000" expanded="true" signature="1090:1163" ph="{...}" />
             <marker date="1559731345000" expanded="true" signature="1186:1239" ph="{...}" />
             <marker date="1559731345000" expanded="true" signature="1292:1353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="151" column="117" selection-start-line="151" selection-start-column="94" selection-end-line="151" selection-end-column="117" />
+          <folding>
+            <marker date="1533574965000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1533574965000" expanded="true" signature="138:7594" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="153:1987" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="2001:7535" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="2117:7527" ph="{...}" />
+            <marker date="1533574965000" expanded="true" signature="7595:23846" ph="/* ASEBEGIN ... */" />
           </folding>
         </state>
       </provider>
@@ -558,20 +598,6 @@
             <marker date="1559734824000" expanded="true" signature="4310:4422" ph="{...}" />
             <marker date="1559734824000" expanded="true" signature="4475:4512" ph="{...}" />
             <marker date="1559734824000" expanded="true" signature="4565:4602" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AssetStoreTools/beffio/Medieval Kingdom/Content/Shaders/beffio_BaseShader.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1533574965000" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
-            <marker date="1533574965000" expanded="true" signature="138:7594" ph="{...}" />
-            <marker date="1533574965000" expanded="true" signature="153:1987" ph="{...}" />
-            <marker date="1533574965000" expanded="true" signature="2001:7535" ph="{...}" />
-            <marker date="1533574965000" expanded="true" signature="2117:7527" ph="{...}" />
-            <marker date="1533574965000" expanded="true" signature="7595:23846" ph="/* ASEBEGIN ... */" />
           </folding>
         </state>
       </provider>

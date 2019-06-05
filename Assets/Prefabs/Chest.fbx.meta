@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Chest_Steel
-    second: {fileID: 2100000, guid: 188bae8003d914c7c8a54da89253f0f1, type: 2}
+    second: {fileID: 2100000, guid: 8a13ff377d2cfe646acc5546980747df, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Chest_Wood
-    second: {fileID: 2100000, guid: 27051666167574fc1b253f476474ac94, type: 2}
+    second: {fileID: 2100000, guid: 69be93c4fe4cee1428e4d902b5209f65, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -58,8 +58,8 @@ ModelImporter:
     meshCompression: 0
     addColliders: 1
     useSRGBMaterialColor: 1
-    importVisibility: 0
-    importBlendShapes: 0
+    importVisibility: 1
+    importBlendShapes: 1
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
@@ -71,7 +71,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    meshOptimizationFlags: -1
+    meshOptimizationFlags: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -82,9 +82,9 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
+    normalCalculationMode: 0
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
+    blendShapeNormalImportMode: 0
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 0
