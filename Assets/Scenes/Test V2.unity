@@ -563,7 +563,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: afb8d43564315499985ab23e33788169, type: 2}
+  - {fileID: 2100000, guid: 6803415c999d34446bdb6b9a12521407, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -824,7 +824,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: afb8d43564315499985ab23e33788169, type: 2}
+  - {fileID: 2100000, guid: 6803415c999d34446bdb6b9a12521407, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -956,8 +956,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1123830687}
   - component: {fileID: 1123830689}
-  - component: {fileID: 1123830688}
   - component: {fileID: 1123830686}
+  - component: {fileID: 1123830688}
   m_Layer: 0
   m_Name: GazeController
   m_TagString: Untagged
@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1123830685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c77a5a4a38994a31a1eb1d826f48dea, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd697fccce8b4f9f99425ed4843932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectableTag: Selectable
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Text_Color: {r: 0, g: 0, b: 0, a: 1}
   TextStyle: 0
-  Background_Color: {r: 0.3921569, g: 0.6156863, b: 1, a: 1}
+  Background_Color: {r: 0.7476393, g: 0.4138483, b: 0.9433962, a: 1}
   Custom_Inactive_Colors: 0
   Text_Color_Inactive: {r: 0, g: 0, b: 0, a: 1}
   TextStyle_Inactive: 0
@@ -1085,7 +1085,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 183aefa3c7acc495aa84343c1c3ffbc3, type: 2}
+  - {fileID: 2100000, guid: dc9a97a85f70f4d45a767e8e801cf230, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
