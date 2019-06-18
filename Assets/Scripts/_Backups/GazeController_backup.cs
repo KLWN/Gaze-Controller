@@ -6,7 +6,7 @@ using UnityEngine;
 #pragma warning disable
 
 
-public class GazeControllerV2 : MonoBehaviour
+public class GazeController_backup : MonoBehaviour
 {
     [Space(5)] [Header("Gaze Controller Settings:")] 
     [SerializeField]
