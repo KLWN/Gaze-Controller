@@ -32,6 +32,9 @@ public class GazeController : MonoBehaviour
     public int TimeAfterTriggerStarted = 270;
     private int waitAfterTriggerStarted;
     public static bool triggerAborted;
+
+    private GameObject selectedGameObject;
+    private Animator selectedAnimator;
     
 
 
@@ -90,7 +93,7 @@ public class GazeController : MonoBehaviour
         {
             if (!triggerStarted)
             {
-                OnTriggerStarted();
+                OnTriggerStarted(mySelection);
                 triggerStarted = true;
             }
         }
@@ -105,9 +108,8 @@ public class GazeController : MonoBehaviour
         {
             if (!triggerAborted)
             {
-                OnTriggerAborted();
+                OnTriggerAborted(mySelection);
                 triggerAborted = true;
-                Debug.Log("Trigger aborted!!!!!");
             }
         }
 
@@ -120,10 +122,24 @@ public class GazeController : MonoBehaviour
             
             if (mySelection.GetComponent<Animator>())
             {
-                selectionAnim = mySelection.GetComponent<Animator>();
-                selectionAnim.SetBool("ActivateBool", true);
+                selectedAnimator = mySelection.GetComponent<Animator>();
+
+                if (selectedAnimator.GetBool("open") == true)
+                {
+                    selectedAnimator.SetBool("open", false);
+                    return;
+                }
+                
+                selectedAnimator.SetBool("open", true);
             }
             
+    
+            
+//            if (mySelection.GetComponent<Animator>())
+//            {
+//                selectionAnim = mySelection.GetComponent<Animator>();
+//                selectionAnim.SetBool("ActivateBool", true);
+//            }
         }
 
 
@@ -153,12 +169,12 @@ public class GazeController : MonoBehaviour
         }
     }
 
-
-    //Überarbeiten, Fade-In/Out der Highlightfarbe besser mit eine Coroutine!!
+    
     private void OnSelect(Transform selection)
     {
         var outline = selection.GetComponent<Outline>();
         outline.OutlineWidth = OutlineSize;
+        Debug.Log("Selected");
     }
 
 
@@ -166,19 +182,19 @@ public class GazeController : MonoBehaviour
     {
         var outline = selection.GetComponent<Outline>();
         outline.OutlineWidth = 0;
-        
+        Debug.Log("Deselected");
     }
     
     
-    private static void OnTriggerStarted()
+    private void OnTriggerStarted(Transform selection)
     {
-        // do something 
+        Debug.Log("Trigger started");
     }
     
     
-    private static void OnTriggerAborted()
+    private void OnTriggerAborted(Transform selection)
     {
-        // do something 
+        Debug.Log("Trigger stopped");
     }
     
     

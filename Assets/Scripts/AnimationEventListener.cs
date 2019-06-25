@@ -16,7 +16,7 @@ public class AnimationEventListener : MonoBehaviour
     {
         isLoaded = true;
         
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0); //seconds 1
         isLoaded = false;
     }
 }

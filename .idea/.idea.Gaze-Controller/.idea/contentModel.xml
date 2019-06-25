@@ -26,6 +26,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="_Backups" t="Include">
+            <e p="GazeController_backup.cs" t="Include" />
             <e p="LoadingBar.cs" t="Include" />
             <e p="WaitFor.cs" t="Include" />
           </e>
@@ -34,7 +35,6 @@
           </e>
           <e p="AnimationEventListener.cs" t="Include" />
           <e p="GazeController.cs" t="Include" />
-          <e p="GazeControllerV2.cs" t="Include" />
           <e p="LoadingBarAnimated.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
