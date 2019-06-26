@@ -16,7 +16,7 @@ public class AnimationEventListener : MonoBehaviour
     {
         isLoaded = true;
         
-        yield return new WaitForSeconds(0); //seconds 1
-        isLoaded = false;
+        yield return new WaitForSeconds(0); //seconds 1 Zuständig für "wenn fertig geladen (LoadingBar)
+        //isLoaded = false;
     }
 }

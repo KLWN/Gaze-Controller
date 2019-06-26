@@ -36,7 +36,7 @@ public class GazeController : MonoBehaviour
     public GameObject chest;
     private AnimationEventListener listener;
     private Animator selectedAnimator;
-    public static bool isLoaded;
+    [SerializeField] private bool isLoaded;
     
 
 
@@ -186,9 +186,13 @@ public class GazeController : MonoBehaviour
             {
                 selectedAnimator.SetBool("open", true);
                 selectedAnimator.SetBool("shake_close", false);
-            } 
-            
-            
+            }
+
+            if (selectedAnimator.GetBool("isLoaded") == true && selectedAnimator.GetBool("open") == true)
+            {
+                selectedAnimator.SetBool("shake_close", true);
+            }
+
         }
     }
 
