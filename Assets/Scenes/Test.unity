@@ -625,6 +625,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4564028798658950712, guid: 896b300ac265b43cdabbe9df23cd7fbc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564028798658950712, guid: 896b300ac265b43cdabbe9df23cd7fbc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 896b300ac265b43cdabbe9df23cd7fbc, type: 3}
 --- !u!1 &392303319 stripped
@@ -652,6 +662,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &392303321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392303319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b979a430e949146948fdb388cc2c3fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLoaded: 0
 --- !u!65 &392303324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1184,8 +1207,9 @@ MonoBehaviour:
   OutlineSize: 7
   TimeBeforeSelected: 10
   TimeBeforeDeselected: 10
-  TimeBeforeTriggerStarts: 30
+  TimeBeforeTriggerStarts: 0
   TimeAfterTriggerStarted: 270
+  chest: {fileID: 392303319}
 --- !u!114 &1123830689
 MonoBehaviour:
   m_ObjectHideFlags: 0

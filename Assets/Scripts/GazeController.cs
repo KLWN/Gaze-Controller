@@ -33,19 +33,30 @@ public class GazeController : MonoBehaviour
     private int waitAfterTriggerStarted;
     public static bool triggerAborted;
 
-    private GameObject selectedGameObject;
+    public GameObject chest;
+    private AnimationEventListener listener;
     private Animator selectedAnimator;
+    public static bool isLoaded;
     
 
 
     private void Start()
     {
         _camera = Camera.main;
+        selectedAnimator = chest.GetComponent<Animator>();
+        listener = chest.GetComponent<AnimationEventListener>();
     }
 
 
     private void Update()
     {
+
+        if (listener.isLoaded == true)
+        {
+            selectedAnimator.SetBool("isLoaded", true);
+        }
+
+
 
         if (waitBeforeSelected <= TimeBeforeSelected && firstBlood)
         {
@@ -118,22 +129,7 @@ public class GazeController : MonoBehaviour
         {
             OnDeselect(mySelection);
 
-            Animator selectionAnim;
-            
-            if (mySelection.GetComponent<Animator>())
-            {
-                selectedAnimator = mySelection.GetComponent<Animator>();
-
-                if (selectedAnimator.GetBool("open") == true)
-                {
-                    selectedAnimator.SetBool("open", false);
-                    return;
-                }
-                
-                selectedAnimator.SetBool("open", true);
-            }
-            
-    
+            Animator selectionAnim;    
             
 //            if (mySelection.GetComponent<Animator>())
 //            {
@@ -175,6 +171,25 @@ public class GazeController : MonoBehaviour
         var outline = selection.GetComponent<Outline>();
         outline.OutlineWidth = OutlineSize;
         Debug.Log("Selected");
+        
+        if (mySelection.GetComponent<Animator>())
+        {
+            selectedAnimator = mySelection.GetComponent<Animator>();
+
+            if (selectedAnimator.GetBool("open") == true)
+            {
+                selectedAnimator.SetBool("open", false);
+                selectedAnimator.SetBool("shake_close", true);
+            } 
+                
+            if (selectedAnimator.GetBool("open") == false)
+            {
+                selectedAnimator.SetBool("open", true);
+                selectedAnimator.SetBool("shake_close", false);
+            } 
+            
+            
+        }
     }
 
 
@@ -183,6 +198,7 @@ public class GazeController : MonoBehaviour
         var outline = selection.GetComponent<Outline>();
         outline.OutlineWidth = 0;
         Debug.Log("Deselected");
+        
     }
     
     
@@ -195,6 +211,7 @@ public class GazeController : MonoBehaviour
     private void OnTriggerAborted(Transform selection)
     {
         Debug.Log("Trigger stopped");
+        selectedAnimator.SetBool("open", false);
     }
     
     
